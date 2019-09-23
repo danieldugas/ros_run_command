@@ -10,7 +10,7 @@ This is meant to be installed as a ROS package: copy to your workspace source di
 ```
 <?xml version="1.0"?>
 <launch>
-  <node pkg="ros_run_command" type="ros_run_command" name="SOME_COMMAND" output="screen"
+  <node pkg="ros_run_command" type="ros_run_command" name="echo_some_command" output="screen"
     args="echo I AM AN ARBITRARY COMMAND"
   />
 </launch>
