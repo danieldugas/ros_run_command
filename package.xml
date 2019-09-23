@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_run_command</name>
+  <version>0.1.0</version>
+  <description>Run an arbitrary command from a launch file</description>
+  <maintainer email="dugasd@ethz.ch">Daniel Dugas</maintainer>
+  <license>MIT</license>
+  <url type="website">https://github.com/danieldugas/ros_run_command</url>
+  <author email="dugasd@ethz.ch">Daniel Dugas</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+</package>

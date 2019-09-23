@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+import rospy
+import os
+import sys
+import argparse
+import subprocess
+
+if __name__ == '__main__':
+    # get rid of args added by ros
+    args = rospy.myargv(argv=sys.argv)
+
+    # first arg is the script path
+    del(args[0])
+
+    cmd = ' '.join(args)
+    print('Executing command {} ...'.format(cmd))
+    os.system(cmd)
