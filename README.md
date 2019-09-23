@@ -19,7 +19,7 @@ This is meant to be installed as a ROS package: copy to your workspace source di
 naturally, this can be used to run shell scripts
 
 ```
-<node pkg="ros_run_command" type="ros_run_command" name="MY_SHELL_SCRIPT" output="screen"
+<node pkg="ros_run_command" type="ros_run_command" name="my_shell_script" output="screen"
     args="~/MY_SHELL_SCRIPT.sh SOME_ARG SOME_OTHER_ARG"
   />
 ```
